@@ -9,4 +9,9 @@ Rails.application.routes.draw do
   # the default of "spree".
   mount Spree::Core::Engine, at: '/'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  draw(:spree_admin)
+  draw(:spree_api_v2)
+
+  default_url_options :host => "localhost"
+
 end

@@ -26,5 +26,8 @@
   },
   "scripts": {
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=/assets"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3"
   }
 }

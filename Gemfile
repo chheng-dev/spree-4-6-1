@@ -24,6 +24,8 @@ gem 'redis', '~> 4.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
+gem "google-cloud-storage", "~> 1.11", require: false
+
 
 # Add Spree
 spree_opt = '~> 4.6.0'

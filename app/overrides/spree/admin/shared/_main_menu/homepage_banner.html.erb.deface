@@ -1,0 +1,5 @@
+<!-- insert_after '#sidebarOrganizations' -->
+
+<ul class="nav nav-sidebar border-bottom">
+  <%= tab 'Homepage Banner', url: spree.admin_homepage_banners_path, icon: 'picture' %>
+</ul>
